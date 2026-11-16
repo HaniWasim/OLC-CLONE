@@ -1,0 +1,27 @@
+{
+  "name": "4332",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env src/server.js",
+    "dev": "node --watch --env-file=.env src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.3.0",
+    "express-validator": "^7.3.2",
+    "filetype": "^0.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mailer": "^0.6.6",
+    "mongoose": "^9.12.1",
+    "multer": "^2.5.0"
+  },
+  "allowScripts": {
+    "bcrypt@6.0.0": true
+  }
+}
